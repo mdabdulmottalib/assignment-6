@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="py-4">
+      <div class="flex max-w-3xl mx-auto justify-between items-center">
+        <div>
+          <a href="/" class="flex items-center gap-3">
+            <img src="images/logo.webp" alt="" />
+            <h2 class="font-extrabold text-xl">Peddy</h2>
+          </a>
+        </div>
+        <div class="">
+          <ul class="text-center flex gap-6">
+            <li><a href="#" class="font-bold">Home</a></li>
+            <li><a href="#" class="font-bold">Shop</a></li>
+            <li><a href="#" class="font-bold">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-4 items-center">
+          <button
+            class="flex size-10 rounded-full items-center justify-center border"
+          >
+            <i class="fa-solid fa-user text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="flex mx-auto md:max-w-2xl">
+        <div
+          class="flex flex-col items-center justify-center text-center gap-6"
+        >
+          <div class="flex flex-col gap-2">
+            <div>
+              <h3 class="text-[#131313] text-opacity-60 text-2xl font-bold">
+                Bringing Families Together ❤️‍🔥
+              </h3>
+            </div>
+            <div>
+              <h2 class="text-6xl text-[#131313] font-extrabold">
+                Your Path to Adoption Starts Here
+              </h2>
+            </div>
+          </div>
+          <div>
+            <p class="text-[#131313] text-base">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a.
+            </p>
+          </div>
+          <div>
+            <button
+              class="bg-[#0E7A81] font-bold text-white px-8 py-3 rounded-xl"
+            >
+              View More
+            </button>
+          </div>
+          <div>
+            <img src="images/pet.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="mt-[100px]">
+      <div class="flex mx-auto max-w-5xl">
+        <div class="flex flex-col gap-12">
+          <div class="flex flex-col gap-6 items-center text-center px-36">
+            <h2 class="font-extrabold text-4xl">Adopt Your Best Friend</h2>
+            <p class="text-base">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a.
+            </p>
+          </div>
+
+          <div>
+            <div
+              class="flex w-full items-center justify-between"
+              id="item-list"
+            ></div>
+          </div>
+
+          <div class="w-full flex items-center justify-between">
+            <h2 class="font-bold text-2xl">Best Deal For you</h2>
+            <button
+              class="bg-[#0E7A81] font-bold text-white px-8 py-3 rounded-xl"
+              id="sort-by-price-btn"
+            >
+              Sort by Price
+            </button>
+          </div>
+
+          <div class="">
+            <div class="grid w-full grid-cols-4 gap-4">
+              <div class="h-full w-full col-start-1 col-end-4">
+                <div class="grid grid-cols-3 gap-5" id="pets-list"></div>
+              </div>
+              <div
+                class="w-full grid grid-cols-2 gap-2 border-2 rounded-xl p-2"
+                id="pet-image-list"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#131313] mt-28 text-white py-28">
+      <div class="flex max-w-3xl mx-auto">
+        <div class="flex w-full justify-between">
+          <div>
+            <div class="flex flex-col gap-4">
+              <div class="flex items-center gap-3">
+                <div>
+                  <img src="images/logo.webp" alt="" />
+                </div>
+                <div>
+                  <h2 class="font-bold text-2xl">Peddy</h2>
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <p>Location: av. Washington</p>
+                <p>Phone: +880 123 45678</p>
+                <p>Email: info@yourdomain.com</p>
+                <p>Openings hours: 9:00 AM</p>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div>
+                  <a href="#" class="text-2xl">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-2xl">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-2xl">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-2xl">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-col gap-4">
+              <h2 class="font-bold text-2xl">Useful Link</h2>
+              <ul class="space-y-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Animals</a></li>
+                <li><a href="#">Foundation</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col items-start gap-4">
+            <h2 class="font-bold text-2xl">Drop a Message</h2>
+            <form class="flex flex-col gap-4">
+              <input
+                class="font-medium text-base py-2 px-3 rounded-xl"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <input
+                class="font-bold text-xl px-8 py-2 rounded-xl bg-[#0E7A81] text-white"
+                type="submit"
+                value="Subscribe"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
